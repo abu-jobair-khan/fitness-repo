@@ -1,0 +1,217 @@
+body{
+   background-color: rgba(17, 17, 17,1);
+   overflow-x: hidden;
+   
+}
+
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  
+}
+
+
+.header > h2{
+   color: rgba(230, 83, 60, 1);
+   font-size: 2.5em;
+}
+
+.nav >a {
+   color: rgba(255, 255, 255, 1);
+   text-decoration: none;
+}
+
+.navbar > ul > li{
+   height: 50px;
+   width: 150px;
+   list-style: none;
+   position: relative;
+   top: 25px;
+   margin-left: 5vw;
+}
+
+.navbar > ul{
+   display: flex;
+   justify-content: space-between;
+}
+
+.header{
+   margin-top: 5vh;
+   display: flex;
+   justify-content: space-around;
+}
+
+.navbar > ul > li:hover{
+   background-color:  rgba(230, 83, 60, 1);
+   font-weight: 800;
+   text-align: center;
+   border-radius: 20px;
+   
+}
+
+@media screen {
+                                    /*for mobile*/
+}
+
+.bdy-txt{
+   max-width: 40vw;
+}
+
+
+.bdy-txt > h1{
+   font-size: 78px;
+   font-weight: 900;
+   line-height: 70px;
+}
+
+.bdy-txt>p{
+   line-height: 30px;
+}
+#none{
+   display: inline-block;
+   height: 5vh;
+   width: 10vw;
+   border: 1px white solid;
+   text-decoration: none;
+   border-radius: 22px;
+   margin-left: 10px;
+   
+}
+
+#orng{
+   display: inline-block;
+   height: 5vh;
+   width: 10vw;
+   background-color:rgba(230, 83, 60, 1);
+   text-decoration: none;
+   border-radius: 22px;
+}
+.bdy-link>a>span{
+   position: relative;
+   left: 45px;
+   top: 10px;
+}
+.imgs2{
+   position: relative;
+   right: 10vw;
+}
+.body{
+   background-color: rgba(199, 194, 194, 0);
+   display: flex;
+   justify-content: space-around;
+}
+
+.play-btn{
+   width: 9vw;
+   height: 20vh;
+
+   position: relative;
+   left: 57vw;
+   bottom: 26vh;
+}
+
+.play-btn>span{
+   
+  margin-left: 2vw;
+}
+
+.tutorial{
+   width: auto;
+   height: 10vh;
+   border-radius: 13px;
+   backdrop-filter: blur(10px);
+   display: flex;
+   justify-content: space-around;
+   position: relative;
+   top: 8.6vh;
+}
+
+.tips{
+   width: 10vw;
+   height: 11vh;
+   border: 1px solid white;
+   position: absolute;
+   left: 74vw;
+   top: 33vh;
+   backdrop-filter: blur(10px);
+   
+}
+
+.tips>h3{
+   position: relative;
+   left: 40px;
+   bottom: 20px;
+}
+
+
+.tips > p{
+   position: relative;
+   left: 40px;
+   bottom: 55px;
+}
+
+
+.container-txt>h1{
+   font-size: 2.7em;
+   position: relative;
+   left: 26vw;
+}
+
+.container-txt>p{
+   position: relative;
+   left: 13vw;
+}
+
+.container-txt>p>span{
+   position: relative;
+   left: 14vw;
+}
+.container{
+   width: 70vw;
+   height: 50vh;
+   
+   position: relative;
+   left: 12vw;
+} 
+
+.box-cntnt{
+   width: 15vw;
+   height: 36vh;
+   
+}
+
+.box-cntnt>img{
+   border: 2px solid rgba(58, 57, 57, 0.87);
+   border-radius: 60%;
+   position: relative;
+   top: 2vh;
+   left: 2vw;
+}
+
+.cntnr-img{
+   display: grid;
+   grid-template-columns: repeat(4 , 1fr);
+   column-gap: 15px;
+}
+
+.box-cntnt>h3{
+   font-size: 18px;
+   font-weight: 400;
+   position: relative;
+   left: 5vw;
+   top: 6.5vh;
+}
+
+
+.box-cntnt>p{
+   position: relative;
+   top:5vh ;
+
+}
+
+.box-cntnt>p>span{
+   position: relative;
+   left: 4vw;
+}
